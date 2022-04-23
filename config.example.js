@@ -76,7 +76,7 @@ module.exports = {
   // The date when the sale goes live
   // If whitelist is enabled, only whitelisted addresses will be able to purchase
   // startTime in ISO format
-    // https://www.timestamp-converter.com/
+  // https://www.timestamp-converter.com/
   startTime: '2022-04-23T17:27:53.915Z',
   // The minter contract address
   // Get this after running `yarn minter`
