@@ -66,7 +66,7 @@ module.exports = {
 
   //// MINTER CONTRACT ////
   // The base URI to be used to programatically mint tokens
-  baseTokenUri: 'ipfs://bafybeihodinxnvxl35rh7oql4zxvigs5dgmzge2rpzgemkbn65z7npz4xa/galaxyVQDfNz',
+  baseTokenUri: 'ipfs://bafybeify2ebgct5yurnhmohdchagcwl2egzy3pmpmlb2ekoja5uee36ksa/galaxyiblFyW',
   // The number of tokens to mint
   numTokens: 100,
   // The price (in STARS) for your NFTs (minimum 50 STARS)
@@ -80,10 +80,10 @@ module.exports = {
   startTime: '2022-04-23T17:27:53.915Z',
   // The minter contract address
   // Get this after running `yarn minter`
-  minter: 'stars1xr3rq8yvd7qplsw5yx90ftsr2zdhg4e9z60h5duusgxpv72hud3srz4yul',
+  minter: 'stars1phczxfyh2jmymd3qn0u0unlazytqnrtasp8cdy20j6w6y323q8fsfhrmd6',
   // SG721 contract address
   // Get this after running `yarn minter`
-  sg721: 'stars1yw4xvtc43me9scqfr2jr2gzvcxd3a9y4eq7gaukreugw2yd2f8tssqyvcm',
+  sg721: 'stars14sa4u42n2a8kmlvj3qcergjhy6g9ps06rzeth94f2y6grlat6u6sv9y4pd',
 
   //// CONTRACT CODE IDs: Double Double Testnet ////
   // The code ID for sg721

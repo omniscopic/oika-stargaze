@@ -2,16 +2,27 @@
   "attributes": [
     {
       "trait_type": "artist",
-      "value": "Nancee Holt"
+      "value": "Rita Leduc"
     },
     {
-      "display_type": "number",
       "trait_type": "generation",
-      "value": 1
+      "value": "1"
+    },
+    {
+      "trait_type": "oika-attribute",
+      "value": "Fecundity"
+    },
+    {
+      "trait_type": "net-primary-productivity",
+      "value": "8"
+    },
+    {
+      "trait_type": "leaf-photosynthesis",
+      "value": "5"
     }
   ],
-  "description": "Artist of the Floating World",
-  "external_url": "https://oika.com",
-  "image": "ipfs://bafybeih3ykpa42eipgtzcrfkeo5nvazcdqhj3oh3ztju44tcoipzsdaauy/images/1.png",
-  "name": "Sculpture #1"
+  "description": "This is an Oika Interpretation by Rich Blundell of: The Life Cycle of a Mushroom, an oil painting by Rita Leduc.\n\nWhat do I see in this work? Fecundity.\nA biologist will tell you that fecundity refers to the capacity to bear offspring.\nOika sees fecundity as creativity in the service of continuity.\n\nThis art was made with and within a matrix of intelligence.\nMushrooms are the fruiting bodies of a mycelial web, strung among the detritus of life.\nLife, invisible. Until it’s not.\nEach individual is continuous but not equivalent\n\nThey are the expression of a distributed vitality\nThat embeds itself in the world, in the artist, in the art and in the audience.\n\nMushroom fecundity manifests through shape, color, form and texture.\n\nShape color, form and texture.\n\nFecundity implies surprise.\nA conspiracy that can obliterate notions of individual hubris…\n\nSo don’t talk to me of the doom and gloom of tipping points\nUnless you’re willing to also sing about the lifeforce and love that’s in the air we breath.\n\nCreativity springs from the liminal space. And can reach us through art.\nYou’re hearing these words, seeing these shapes, feeling these forms because you’re supposed to. Right now.\n\nI feel fecundity at work here.\nWhat do you feel?",
+  "external_url": "https://vimeo.com/richblundell/mushroom",
+  "image": "ipfs://bafybeih3ykpa42eipgtzcrfkeo5nvazcdqhj3oh3ztju44tcoipzsdaauy/images/1.gif",
+  "name": "Life Cycle of a Mushroom"
 }

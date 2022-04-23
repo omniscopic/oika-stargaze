@@ -1,13 +1,23 @@
-# Stargaze Tools
+# Oika Stargaze
 
-Stargaze Tools is a set of tools for launching a collection and minting on Stargaze.
+Collection link:
+
+https://testnet.publicawesome.dev/launchpad/stars1dc34p57spmhguak2ns88u3vxmt73gnu3c0j6phqv5ukfytklkqjsuv9gl6
+
+
 
 ## Setup project
 
 ```sh
-git clone https://github.com/public-awesome/stargaze-tools
-cd stargaze-tools
+git clone https://github.com/omniscopic/oika-stargaze
+cd oika-stargaze
 yarn install
+```
+
+## Configure project
+
+```sh
+cp config.example.js config.js
 ```
 
 ## Create an account on testnet
@@ -16,26 +26,33 @@ yarn install
 yarn account
 ```
 
-This outputs an address you can use to instantiate your minter contract.
+This outputs an address you can use to instantiate your minter contract. Copy the generated `mnemonic` and account `address` to `config.js`.
 
 ## Get funds from faucet
 
-Ask for funds from the `#faucet` channel in [Discord Stargaze](https://discord.gg/stargaze).
+Ask for funds from the `#faucet` channel in [Discord Stargaze](https://discord.gg/stargaze). You'll need the Developer role to see the channel.
 
-```
+```discord
 $request [address]
 ```
 
-## Configure project
+## Upload images and metadata to nft.storage
 
-Copy `config.example.js` to `config.js`.
-Edit `config.js` with your project configuration.
+```sh
+yarn run nft-storage-upload
+```
+
+update baseTokenUri with resulting value
 
 ## Initialize an NFT minting contract
+
+update `startTime` in `config.js` to time in the future
 
 ```sh
 yarn minter
 ```
+
+update `minter` and `sg721` in `config.js` with the new contract addresses
 
 ## Mint
 
