@@ -1,8 +1,8 @@
 # Oika Stargaze
 
-Collection link:
+NFT link:
 
-https://testnet.publicawesome.dev/launchpad/stars1dc34p57spmhguak2ns88u3vxmt73gnu3c0j6phqv5ukfytklkqjsuv9gl6
+https://testnet.publicawesome.dev/media/stars1u8z2n5u7whwf4656yxfyh8ssjxy2tuhavds8ddrmdfvvwu84cvuqvvqhtp/1
 
 
 
@@ -59,7 +59,7 @@ update `minter` and `sg721` in `config.js` with the new contract addresses
 ### Mint a specific NFT to an address
 
 ```sh
-yarn mint --for [token_id] [address]
+yarn mint --for 1 stars1mjrype443c3mte26c5p609derz4hv2qv5wyw52
 ```
 
 `[address]` can be any Cosmos address. It'll be converted automatically into a Stargaze address.
